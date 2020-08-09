@@ -1,0 +1,99 @@
+Directives : chỉ thị
+
+
+Component Directives : thành phần
+These form the main class having details of how the component should be processed, instantiated and used at runtime.
+
+
+Structural Directives : cấu trúc
+A structure directive basically deals with manipulating the dom elements. Structural directives have a * sign before the directive. For example, *ngIf and *ngFor.
+
+
+Attribute Directives : thuộc tính
+Attribute directives deal with changing the look and behavior of the dom element. You can create your own directives as explained in the below section.
+
+
+
+
+
+
+
+
+Sr.No 	Commands and Description
+1 	
+
+Component
+
+ng g component new-component
+2 	
+
+Directive
+
+ng g directive new-directive
+3 	
+
+Pipe
+
+ng g pipe new-pipe
+4 	
+
+Service
+
+ng g service new-service
+5 	
+
+Module
+
+ng g module my-module
+6 	
+
+Test
+
+ng test
+7 	
+
+Build
+
+ng build --configuration=production // for production environment
+
+ng build --configuration=staging // for stating environment
+
+built-in pipes available
+    lowercase
+    uppercase 
+    date 
+    currency 
+    json 
+    percent 
+        decimal 
+    number: '3.2-5' : 'fr-FR'
+    slice 
+
+
+// Full list of Angular Events
+
+(click)="myFunction()"      
+(dblclick)="myFunction()"   
+
+(submit)="myFunction()"
+
+(blur)="myFunction()"  
+(focus)="myFunction()" 
+
+(scroll)="myFunction()"
+
+(cut)="myFunction()"
+(copy)="myFunction()"
+(paste)="myFunction()"
+
+(keyup)="myFunction()"
+(keypress)="myFunction()"
+(keydown)="myFunction()"
+
+(mouseup)="myFunction()"
+(mousedown)="myFunction()"
+(mouseenter)="myFunction()"
+
+(drag)="myFunction()"
+(drop)="myFunction()"
+(dragover)="myFunction()"

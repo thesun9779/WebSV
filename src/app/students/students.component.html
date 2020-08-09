@@ -1,0 +1,60 @@
+<div>
+  <button mat-raised-button color="primary" (click)="addStudent()">
+    <mat-icon>add_box</mat-icon>
+    Thêm sinh viên
+  </button>
+  <table id="customers" style="border-collapse: collapse;">
+    <tr>
+      <th>Hành động</th>
+      <th>Id</th>
+      <th>
+        Mã sinh viên
+        <mat-icon style="cursor: pointer;" (click)="sortByCode('down')">
+          arrow_downward
+        </mat-icon>
+        <mat-icon style="cursor: pointer;" (click)="sortByCode('up')">
+          arrow_upward
+        </mat-icon>
+      </th>
+      <th>Giới tính</th>
+      <th>Tên</th>
+      <th>Họ</th>
+      <th>Điện thư</th>
+      <th>Điện thoại</th>
+      <th>Hình</th>
+    </tr>
+    <tr *ngFor="let student of students">
+      <td>
+        <mat-icon
+          style="cursor: pointer;"
+          title="Nhấn vào để xóa"
+          (click)="deleteStudent(student.id)"
+        >
+          clear
+        </mat-icon>
+        &nbsp;
+        <mat-icon
+          style="cursor: pointer;"
+          title="Nhấn vào để soạn"
+          (click)="editStudent(student.id)"
+        >
+          create
+        </mat-icon>
+      </td>
+      <td>{{ student?.id }}</td>
+      <td>{{ student?.code }}</td>
+      <td>{{ student?.gender }}</td>
+      <td>{{ student?.firstName }}</td>
+      <td>{{ student?.lastName }}</td>
+      <td>{{ student?.email }}</td>
+      <td>{{ student?.phone }}</td>
+      <td align="center">
+        <img
+          *ngIf="student?.picture"
+          src="{{ student?.picture }}"
+          height="50"
+        />
+      </td>
+    </tr>
+  </table>
+</div>

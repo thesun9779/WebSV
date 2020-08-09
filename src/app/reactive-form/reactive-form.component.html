@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Học về Reactive Form</h1>
+  <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <label>
+      Name:
+      <input type="text" formControlName="name" required />
+    </label>
+    <span *ngIf="profileForm.controls.name.invalid" class="errorMessage">
+      * Cần phải nhập tên
+    </span>
+    <br />
+    <label>
+      Age:
+      <input type="text" formControlName="age" required />
+    </label>
+    <span *ngIf="profileForm.controls.age.invalid" class="errorMessage">
+      * Cần phải nhập mật khẩu
+    </span>
+    <br />
+    <button
+      type="submit"
+      class="btn btn-success"
+      [disabled]="!profileForm.valid"
+    >
+      Submit
+    </button>
+  </form>
+</div>

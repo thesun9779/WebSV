@@ -1,0 +1,138 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "code": "MSV-01",
+      "gender": "male",
+      "firstName": "Huy",
+      "lastName": "Nguyễn",
+      "dob": "1900/1/1",
+      "email": "codelaghien@gmail.com",
+      "phone": "123-456-7899",
+      "picture": ""
+    },
+    {
+      "code": "DNI-38019856-X",
+      "gender": "female",
+      "firstName": "Amparo",
+      "lastName": "Nieto",
+      "dob": "1973-01-18T20:49:18.287Z",
+      "email": "amparo.nieto@example.com",
+      "phone": "910-158-017",
+      "picture": "https://randomuser.me/api/portraits/women/5.jpg",
+      "id": 7
+    },
+    {
+      "code": "TFN-800211253",
+      "gender": "female",
+      "firstName": "Misty",
+      "lastName": "Evans",
+      "dob": "1982-07-23T19:03:04.993Z",
+      "email": "misty.evans@example.com",
+      "phone": "02-0293-5657",
+      "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+      "id": 10
+    },
+    {
+      "code": "DNI-47250823-P",
+      "gender": "male",
+      "firstName": "Luis",
+      "lastName": "Gallardo",
+      "dob": "1953-08-13T01:09:42.245Z",
+      "email": "luis.gallardo@example.com",
+      "phone": "983-109-720",
+      "picture": "https://randomuser.me/api/portraits/men/40.jpg",
+      "id": 12
+    },
+    {
+      "code": "CPR-180153-6269",
+      "gender": "male",
+      "firstName": "Mads",
+      "lastName": "Johansen",
+      "dob": "1953-01-18T06:11:23.702Z",
+      "email": "mads.johansen@example.com",
+      "phone": "43180275",
+      "picture": "https://randomuser.me/api/portraits/men/60.jpg",
+      "id": 13
+    },
+    {
+      "code": "NINO-AL 42 27 99 I",
+      "gender": "male",
+      "firstName": "Tom",
+      "lastName": "Mckinney",
+      "dob": "1973-09-07T03:34:38.607Z",
+      "email": "tom.mckinney@example.com",
+      "phone": "0115943 407 4378",
+      "picture": "https://randomuser.me/api/portraits/men/62.jpg",
+      "id": 14
+    },
+    {
+      "code": "INSEE-2NNaN29621149 17",
+      "gender": "female",
+      "firstName": "Clémence",
+      "lastName": "Meunier",
+      "dob": "1969-08-20T20:12:27.724Z",
+      "email": "clemence.meunier@example.com",
+      "phone": "05-51-26-55-53",
+      "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+      "id": 15
+    },
+    {
+      "code": "DNI-25957381-H",
+      "gender": "male",
+      "firstName": "Alfredo",
+      "lastName": "Vazquez",
+      "dob": "1961-02-20T08:10:36.769Z",
+      "email": "alfredo.vazquez@example.com",
+      "phone": "986-978-303",
+      "picture": "https://randomuser.me/api/portraits/men/24.jpg",
+      "id": 17
+    },
+    {
+      "code": "DNI-71155572-X",
+      "gender": "female",
+      "firstName": "Josefa",
+      "lastName": "Delgado",
+      "dob": "1955-11-20T19:43:03.250Z",
+      "email": "josefa.delgado@example.com",
+      "phone": "929-864-861",
+      "picture": "https://randomuser.me/api/portraits/women/49.jpg",
+      "id": 18
+    },
+    {
+      "code": "SSN-806-27-9799",
+      "gender": "female",
+      "firstName": "Lucy",
+      "lastName": "Bishop",
+      "dob": "1981-07-03T20:18:06.266Z",
+      "email": "lucy.bishop@example.com",
+      "phone": "(165)-361-8717",
+      "picture": "https://randomuser.me/api/portraits/women/46.jpg",
+      "id": 19
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "testing",
+      "author": "author testing",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Huy Nguyễn",
+    "age": 20,
+    "gender": "male"
+  }
+}

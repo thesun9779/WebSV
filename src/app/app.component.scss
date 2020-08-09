@@ -1,0 +1,42 @@
+.nav-height {
+  min-height: 50px !important;
+  height: 50px !important;
+}
+
+.content-move-right {
+  margin-left: 170px !important;
+  transition: ease 0.2s;
+}
+
+.content-move-left {
+  margin-left: 10px !important;
+  transition: ease 0.1s;
+}
+
+.active-link {
+  background: blue;
+  color: white;
+}
+
+.mat-button:hover {
+  background: blue;
+  color: white;
+}
+
+// .my-badge {
+//   position: relative;
+//   top: -10px;
+//   left: -7px;
+//   font-size: smaller;
+//   background-color: red;
+//   color: white;
+// }
+// .w3-badge,
+// .w3-tag {
+//   background-color: #000;
+//   color: #fff;
+//   display: inline-block;
+//   padding-left: 8px;
+//   padding-right: 8px;
+//   text-align: center;
+// }
